@@ -1,16 +1,17 @@
-package _DES
+package des
 
 import (
-	"BigIntCode/utils"
+	"MiMaXue/utils"
 	"crypto/cipher"
 	"crypto/des"
 )
 
 /**
- * 将要加密的数据使用3des算法进行加密，并将密文返回
+ * 使用秘钥key对明文data进行加密
  */
-func TripleDesEncrypt (data, key []byte) ([]byte,error){
-	block, err := des.NewTripleDESCipher(key)
+func DesEncrypt (data, key []byte) ([]byte,error){
+	//三要素：key、data、mode
+	block, err := des.NewCipher(key)
 	if err != nil{
 		return nil,err
 	}
@@ -25,17 +26,17 @@ func TripleDesEncrypt (data, key []byte) ([]byte,error){
 	return dst,nil
 }
 
-/**
- * 使用3des算法对密文进行解密并返回明文数据
- */
-func TripleDesDecrypt(data, key []byte) ([]byte,error){
-	block, err := des.NewTripleDESCipher(key)
+func DesDecrypt(data, key []byte) ([]byte,error){
+	block, err := des.NewCipher(key)
 	if err != nil{
 		return nil, err
 	}
+	//mode实例化
 	blockMode := cipher.NewCBCDecrypter(block,key)
+	//原始的，最初的：original
 	originData := make([]byte, len(data))
 	blockMode.CryptBlocks(originData,data)
+	//对解密后的明文进行尾部填充内容去除
+	originData = utils.ClearPKCS5Padding(originData,block.BlockSize())
 	return originData, nil
 }
-

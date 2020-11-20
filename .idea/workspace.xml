@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4da80e48-391a-4364-8d34-161f20d46f7b" name="Default Changelist" comment="" />
+    <list default="true" id="4da80e48-391a-4364-8d34-161f20d46f7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/base64.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/des/des.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecc/ecc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rsa/rsa.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/hash_util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3DES/3des.go" beforeDir="false" afterPath="$PROJECT_DIR$/3des/3des.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AES/AES.go" beforeDir="false" afterPath="$PROJECT_DIR$/aes/aes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DES、.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/cbc.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/padding_util.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +29,11 @@
     </option>
   </component>
   <component name="GOROOT" path="D:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1j5wMopamVd0r4F6yki4jFKo0fG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,6 +42,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
@@ -35,7 +54,21 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\golang\Goprojects\src\MiMaXue\DES" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build MiMaXue" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="BigIntCode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="MiMaXue" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="BigIntCode" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -46,6 +79,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build MiMaXue" />
       </list>
     </recent_temporary>
   </component>
@@ -53,25 +87,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="692" height="212" key="GridCell.Tab.0.bottom" timestamp="1603107845923">
+    <state x="538" y="86" key="#go_build_MiMaXue" timestamp="1605099493775">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="692" height="212" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1603107845923" />
-    <state width="692" height="212" key="GridCell.Tab.0.center" timestamp="1603107845923">
+    <state x="538" y="86" key="#go_build_MiMaXue/0.0.1549.831@0.0.1549.831" timestamp="1605099493775" />
+    <state x="789" y="142" key="FileChooserDialogImpl" timestamp="1605834995128">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="692" height="212" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1603107845923" />
-    <state width="692" height="212" key="GridCell.Tab.0.left" timestamp="1603107845923">
+    <state x="789" y="142" key="FileChooserDialogImpl/0.0.1549.831@0.0.1549.831" timestamp="1605834995128" />
+    <state width="729" height="103" key="GridCell.Tab.0.bottom" timestamp="1605785946544">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="692" height="212" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1603107845923" />
-    <state width="692" height="212" key="GridCell.Tab.0.right" timestamp="1603107845923">
+    <state width="729" height="103" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1605785946544" />
+    <state width="729" height="103" key="GridCell.Tab.0.center" timestamp="1605785946544">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state width="692" height="212" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1603107845923" />
-    <state x="937" y="152" key="search.everywhere.popup" timestamp="1603107546964">
+    <state width="729" height="103" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1605785946544" />
+    <state width="729" height="103" key="GridCell.Tab.0.left" timestamp="1605785946544">
       <screen x="0" y="0" width="1549" height="831" />
     </state>
-    <state x="937" y="152" key="search.everywhere.popup/0.0.1549.831@0.0.1549.831" timestamp="1603107546964" />
+    <state width="729" height="103" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1605785946544" />
+    <state width="729" height="103" key="GridCell.Tab.0.right" timestamp="1605785946544">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="729" height="103" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1605785946544" />
+    <state x="0" y="0" width="557" height="534" key="dock-window-1" timestamp="1605181409818">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="0" y="0" width="557" height="534" key="dock-window-1/0.0.1549.831@0.0.1549.831" timestamp="1605181409818" />
+    <state x="937" y="152" width="672" height="678" key="search.everywhere.popup" timestamp="1605230301707">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="937" y="152" width="672" height="678" key="search.everywhere.popup/0.0.1549.831@0.0.1549.831" timestamp="1605230301707" />
   </component>
 </project>
